@@ -1,0 +1,37 @@
+Definir: Crear una calculadora que permita obtener el área o el perímetro ya sea de un rectángulo, un cuadrado o un triángulo según la necesidad del usuario, a partir de las medidas proporcionadas por el mismo.
+Nota 1. La unidad de medida serán los cm.
+Nota 2. Para el triángulo, considerar únicamente al triángulo isósceles
+Nota 3. Considerar que quizá después haya más figuras.
+
+Pasos por seguir:
+-	Preguntar al usuario si desea seleccionar un rectángulo, un cuadrado o un triángulo. 
+Si selecciona un rectángulo
+-	Preguntar al usuario la magnitud que desea calcular
+-	Solicitar al usuario las medidas de la base y la altura del rectángulo en cm.
+Si desea calcular área:
+-	Multiplicar los valores de la base por la altura
+-	Mostrar el valor del área en cm^2
+Si desea calcular perímetro
+-	Multiplicar por dos la suma de las medidas de la base y la altura
+-	Mostrar el valor del perímetro en cm
+
+Si selecciona un cuadrado
+-	Preguntar al usuario la magnitud que desea calcular
+-	Solicitar al usuario las medidas de uno de los lados del cuadrado en cm.
+Si desea calcular área:
+-	Multiplicar la medida del lado del cuadrado por sí mismo
+-	Mostrar el valor del área en cm^2.
+Si desea calcular perímetro
+-	Multiplicar por 4 la medida del lado del cuadrado.
+-	Mostrar el valor del perímetro en cm.
+
+ Si selecciona un triángulo
+-	Preguntar al usuario la magnitud que desea calcular
+-	Solicitar al usuario las medidas de la base, la altura y uno de los lados del triángulo en cm.
+Si desea calcular área:
+-	Dividir el producto de la base por la altura entre dos.
+-	Mostrar el valor del área en cm^2.
+Si desea calcular perímetro
+-	Multiplicar por 2 la medida de uno de los lados y sumar a eso el valor de la base.
+-	Mostrar el valor del perímetro en cm.
+
